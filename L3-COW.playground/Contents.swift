@@ -39,8 +39,10 @@ class Automaker {
 
 // MARK: Создаём автопроизводителя
 var mazda = Automaker(name: "Mazda")
+
 // MARK: Создаём 1-ю машину
 var firstCar = Car(automaker: mazda, color: "red")
+
 // MARK: Создаём 2-ю машину, копированием 1-й
 var secondCar = firstCar
 
